@@ -1,7 +1,8 @@
-📌 Overview: 
-This project focuses on structural probing of BERT to analyze how knowledge is localized across different layers of large language models (LLMs). Using PyTorch, Hugging Face Transformers, and Streamlit, the app provides reproducible workflows and interactive visualizations for exploring layer‑wise representations.
+📌 Overview
+This project focuses on structural probing of BERT to analyze how knowledge is localized across different layers of large language models (LLMs).
+Using PyTorch, Hugging Face Transformers, and Streamlit, the app provides reproducible workflows and interactive visualizations for exploring layer‑wise representations.
 
-🎯 Objectives: 
+🎯 Objectives
 Identify which layers of BERT encode specific types of knowledge (syntax, semantics, factual).
 
 Compare probing performance across layers using linear classifiers.
@@ -9,35 +10,46 @@ Compare probing performance across layers using linear classifiers.
 Provide an interactive Streamlit app for real‑time exploration.
 
 ⚡ Key Features
-Bidirectional Training: Reads text in both directions for deeper context.
+Bidirectional Training:
+Reads text in both directions for deeper context.
 
-Masked Language Modeling (MLM): Randomly masks words during training and predicts them, teaching the model contextual inference.
+Masked Language Modeling (MLM):
+Randomly masks words during training and predicts them, teaching the model contextual inference.
 
-Next Sentence Prediction (NSP): Learns relationships between sentences, useful for tasks like QA and dialogue.
+Next Sentence Prediction (NSP):
+Learns relationships between sentences, useful for tasks like QA and dialogue.
 
-Pre-trained + Fine-tuned: Trained on massive corpora (Wikipedia + BookCorpus) and adaptable to downstream tasks.
+Pre-trained + Fine-tuned:
+Trained on massive corpora (Wikipedia + BookCorpus) and adaptable to downstream tasks.
 
-Open Source: Widely available with thousands of variants (e.g., DistilBERT, RoBERTa).
+Open Source:
+Widely available with thousands of variants (e.g., DistilBERT, RoBERTa).
 
 🛠️ Technologies Used
-Transformers Architecture: Self-attention mechanism for contextual encoding.
+Transformers Architecture:
+Self-attention mechanism for contextual encoding.
 
-PyTorch : Frameworks commonly used to implement and fine-tune BERT.
+PyTorch:
+Framework commonly used to implement and fine-tune BERT.
 
-Hugging-Face Transformers: Popular library offering pre-trained BERT models and utilities.
+Hugging Face Transformers:
+Popular library offering pre-trained BERT models and utilities.
 
-Scikit-learn: Often used for probing tasks with linear classifiers.
+Scikit-learn:
+Often used for probing tasks with linear classifiers.
 
-Streamlit: For building interactive apps to visualize probing results (as in your project).
+Streamlit:
+For building interactive apps to visualize probing results (as in your project).
 
 📊 Results
-Shallow layers: capture surface features (syntax, word shape).
+Shallow layers:
+Capture surface features (syntax, word shape).
 
-Middle layers: encode semantic relations and contextual meaning.
+Middle layers:
+Encode semantic relations and contextual meaning.
 
-Deeper layers: specialize in task‑specific or factual knowledge.
-
-👉 Together, these approaches illustrate the trade‑off between interpretability and performance in probing transformer models.
+Deeper layers:
+Specialize in task‑specific or factual knowledge.
 
 demo screenshots : 
 
