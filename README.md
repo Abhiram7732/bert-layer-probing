@@ -18,12 +18,8 @@
 
 🛠️ Technologies Used: 
 
-    Transformers Architecture:
-    Self-attention mechanism for contextual encoding.
-
-PyTorch:
-    
-    Framework commonly used to implement and fine-tune BERT.
+    Transformers Architecture: Self-attention mechanism for contextual encoding.
+    PyTorch: Framework commonly used to implement and fine-tune BERT.
     Hugging Face Transformers:Popular library offering pre-trained BERT models and utilities.
     Scikit-learn: Often used for probing tasks with linear classifiers.
     Streamlit: For building interactive apps to visualize probing results (as in your project).
