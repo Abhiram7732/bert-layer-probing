@@ -1,4 +1,4 @@
-<h1>📌 **Overview:**</h1>
+<h1>📌Overview:</h1>
 
 This project focuses on structural probing of BERT to analyze how knowledge is localized across different layers of large language models (LLMs). Using PyTorch, Hugging Face Transformers, and Streamlit, the app provides reproducible workflows and interactive visualizations for exploring layer‑wise representations.
     
@@ -12,13 +12,13 @@ In addition to layer‑wise probing, our approach emphasizes sentence-based anal
 
   4. Comparing across layers to see where BERT best encodes sentence structure versus meaning.
 
-🎯 **Objectives:**
+<h1>🎯 Objectives:</h1>
 
   1. Identify which layers of BERT encode specific types of knowledge (syntax, semantics, factual).
   2. Compare probing performance across layers using linear classifiers.
   3. Provide an interactive Streamlit app for real‑time exploration.
 
-⚡ **Key Features:**
+<h1>⚡ Key Features:</h1>
 
    1. Bidirectional Training: Reads text in both directions for deeper context.
    2. Masked Language Modeling (MLM): Randomly masks words during training and predicts them, teaching the model contextual inference.
@@ -26,7 +26,7 @@ In addition to layer‑wise probing, our approach emphasizes sentence-based anal
    4. Pre-trained + Fine-tuned: Trained on massive corpora (Wikipedia + BookCorpus) and adaptable to downstream tasks.
    5. Open Source: Widely available with thousands of variants (e.g., DistilBERT, RoBERTa).
 
-🛠️ **Technologies Used:**
+<h1>🛠️ Technologies Used:</h1>
 
    1. Transformers Architecture: Self-attention mechanism for contextual encoding.
    2. PyTorch: Framework commonly used to implement and fine-tune BERT.
@@ -34,13 +34,13 @@ In addition to layer‑wise probing, our approach emphasizes sentence-based anal
    4. Scikit-learn: Often used for probing tasks with linear classifiers.
    5. Streamlit: For building interactive apps to visualize probing results (as in your project).
 
-📊 **Results:**
+<h1>📊 Results:</h1>
 
    1. Shallow layers: Capture surface features (syntax, word shape).
    2. Middle layers:Encode semantic relations and contextual meaning.
    3. Deeper layers: Specialize in task‑specific or factual knowledge.
 
-**demo screenshots :**
+<h1>demo screenshots:</h1>
 
 <img width="1910" height="705" alt="image" src="https://github.com/user-attachments/assets/97038ceb-6b26-4bb4-a9b8-6425bdc2c14e" />
 <img width="1903" height="837" alt="image" src="https://github.com/user-attachments/assets/1845e5d0-78aa-4f0f-90b1-ee7aedbb93c1" />
