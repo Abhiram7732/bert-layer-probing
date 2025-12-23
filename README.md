@@ -26,7 +26,7 @@ In addition to layer‑wise probing, our approach emphasizes sentence-based anal
    4. Pre-trained + Fine-tuned: Trained on massive corpora (Wikipedia + BookCorpus) and adaptable to downstream tasks.
    5. Open Source: Widely available with thousands of variants (e.g., DistilBERT, RoBERTa).
 
-🛠️ **Technologies Used: **
+🛠️ **Technologies Used:**
 
    1. Transformers Architecture: Self-attention mechanism for contextual encoding.
    2. PyTorch: Framework commonly used to implement and fine-tune BERT.
