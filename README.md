@@ -4,41 +4,41 @@ This project focuses on structural probing of BERT to analyze how knowledge is l
     
 In addition to layer‑wise probing, our approach emphasizes sentence-based analysis:
 
-    1. Parsing sentences into syntactic structures (dependency trees, constituency parses).
+  1. Parsing sentences into syntactic structures (dependency trees, constituency parses).
 
-    2. Mapping tokens and spans to BERT’s hidden states for fine-grained probing.
+  2. Mapping tokens and spans to BERT’s hidden states for fine-grained probing.
 
-    3. Evaluating linguistic properties (syntax, semantics, factual relations) by testing how well linear classifiers recover sentence-level features.
+  3. Evaluating linguistic properties (syntax, semantics, factual relations) by testing how well linear classifiers recover sentence-level features.
 
-    4. Comparing across layers to see where BERT best encodes sentence structure versus meaning.
+  4. Comparing across layers to see where BERT best encodes sentence structure versus meaning.
 
 🎯 Objectives
 
-    1. Identify which layers of BERT encode specific types of knowledge (syntax, semantics, factual).
-    2. Compare probing performance across layers using linear classifiers.
-    3. Provide an interactive Streamlit app for real‑time exploration.
+  1. Identify which layers of BERT encode specific types of knowledge (syntax, semantics, factual).
+  2. Compare probing performance across layers using linear classifiers.
+  3. Provide an interactive Streamlit app for real‑time exploration.
 
 ⚡ Key Features:
 
-    1. Bidirectional Training: Reads text in both directions for deeper context.
-    2. Masked Language Modeling (MLM): Randomly masks words during training and predicts them, teaching the model contextual inference.
-    3. Next Sentence Prediction (NSP): Learns relationships between sentences, useful for tasks like QA and dialogue.
-    4. Pre-trained + Fine-tuned: Trained on massive corpora (Wikipedia + BookCorpus) and adaptable to downstream tasks.
-    5. Open Source: Widely available with thousands of variants (e.g., DistilBERT, RoBERTa).
+   1. Bidirectional Training: Reads text in both directions for deeper context.
+   2. Masked Language Modeling (MLM): Randomly masks words during training and predicts them, teaching the model contextual inference.
+   3. Next Sentence Prediction (NSP): Learns relationships between sentences, useful for tasks like QA and dialogue.
+   4. Pre-trained + Fine-tuned: Trained on massive corpora (Wikipedia + BookCorpus) and adaptable to downstream tasks.
+   5. Open Source: Widely available with thousands of variants (e.g., DistilBERT, RoBERTa).
 
 🛠️ Technologies Used: 
 
-    1. Transformers Architecture: Self-attention mechanism for contextual encoding.
-    2. PyTorch: Framework commonly used to implement and fine-tune BERT.
-    3. Hugging Face Transformers:Popular library offering pre-trained BERT models and utilities.
-    4. Scikit-learn: Often used for probing tasks with linear classifiers.
-    5. Streamlit: For building interactive apps to visualize probing results (as in your project).
+   1. Transformers Architecture: Self-attention mechanism for contextual encoding.
+   2. PyTorch: Framework commonly used to implement and fine-tune BERT.
+   3. Hugging Face Transformers:Popular library offering pre-trained BERT models and utilities.
+   4. Scikit-learn: Often used for probing tasks with linear classifiers.
+   5. Streamlit: For building interactive apps to visualize probing results (as in your project).
 
 📊 Results
 
-    1. Shallow layers: Capture surface features (syntax, word shape).
-    2. Middle layers:Encode semantic relations and contextual meaning.
-    3. Deeper layers: Specialize in task‑specific or factual knowledge.
+   1. Shallow layers: Capture surface features (syntax, word shape).
+   2. Middle layers:Encode semantic relations and contextual meaning.
+   3. Deeper layers: Specialize in task‑specific or factual knowledge.
 
 demo screenshots : 
 
