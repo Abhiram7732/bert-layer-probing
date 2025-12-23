@@ -1,5 +1,5 @@
 <h1>📌Overview:</h1>
-
+<p>
 This project focuses on structural probing of BERT to analyze how knowledge is localized across different layers of large language models (LLMs). Using PyTorch, Hugging Face Transformers, and Streamlit, the app provides reproducible workflows and interactive visualizations for exploring layer‑wise representations.
     
 In addition to layer‑wise probing, our approach emphasizes sentence-based analysis:
@@ -11,6 +11,7 @@ In addition to layer‑wise probing, our approach emphasizes sentence-based anal
   3. Evaluating linguistic properties (syntax, semantics, factual relations) by testing how well linear classifiers recover sentence-level features.
 
   4. Comparing across layers to see where BERT best encodes sentence structure versus meaning.
+     </p>
 
 <h1>🎯 Objectives:</h1>
 
