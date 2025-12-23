@@ -35,7 +35,7 @@ In addition to layer‑wise probing, our approach emphasizes sentence-based anal
    4. Scikit-learn: Often used for probing tasks with linear classifiers.
    5. Streamlit: For building interactive apps to visualize probing results (as in your project).
 
-<h1>BERT Architecture</h1>
+<h1>🧩 BERT Architecture:</h1>
 <img width="960" height="358" alt="BERT-Embedding" src="https://github.com/user-attachments/assets/4f439838-c1ae-4502-8526-cf789c0bf186" />
 
 
