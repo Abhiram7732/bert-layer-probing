@@ -1,8 +1,8 @@
 📌 Overview
 
-    This project focuses on structural probing of BERT to analyze how knowledge is localized across different layers of large language models (LLMs). Using PyTorch, Hugging Face Transformers, and Streamlit, the app provides reproducible workflows and interactive visualizations for exploring layer‑wise representations.
+This project focuses on structural probing of BERT to analyze how knowledge is localized across different layers of large language models (LLMs). Using PyTorch, Hugging Face Transformers, and Streamlit, the app provides reproducible workflows and interactive visualizations for exploring layer‑wise representations.
     
-    In addition to layer‑wise probing, our approach emphasizes sentence-based analysis:
+In addition to layer‑wise probing, our approach emphasizes sentence-based analysis:
 
     1. Parsing sentences into syntactic structures (dependency trees, constituency parses).
 
