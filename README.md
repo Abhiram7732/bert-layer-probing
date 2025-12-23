@@ -40,7 +40,7 @@ In addition to layer‑wise probing, our approach emphasizes sentence-based anal
    2. Middle layers:Encode semantic relations and contextual meaning.
    3. Deeper layers: Specialize in task‑specific or factual knowledge.
 
-**demo screenshots : **
+**demo screenshots :**
 
 <img width="1910" height="705" alt="image" src="https://github.com/user-attachments/assets/97038ceb-6b26-4bb4-a9b8-6425bdc2c14e" />
 <img width="1903" height="837" alt="image" src="https://github.com/user-attachments/assets/1845e5d0-78aa-4f0f-90b1-ee7aedbb93c1" />
